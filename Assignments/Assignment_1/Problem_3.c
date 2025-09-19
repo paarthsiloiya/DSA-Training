@@ -81,21 +81,6 @@ int main() {
             printf("Invalid choice.\n");
         }
     }
-    printf("\nTesting with 10 patients:\n");
-    addPatient(1, "Patient A", 5);
-    addPatient(2, "Patient B", 8);
-    addPatient(3, "Patient C", 3);
-    addPatient(4, "Patient D", 10);
-    addPatient(5, "Patient E", 5);
-    addPatient(6, "Patient F", 8);
-    addPatient(7, "Patient G", 2);
-    addPatient(8, "Patient H", 7);
-    addPatient(9, "Patient I", 10);
-    addPatient(10, "Patient J", 4);
-    displayQueue();
-    treatPatient();
-    treatPatient();
-    displayQueue();
     struct Patient *temp;
     while (head != NULL) {
         temp = head;
